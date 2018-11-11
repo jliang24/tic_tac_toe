@@ -1,0 +1,37 @@
+h1{
+    text-align: center; 
+    margin-top: 50px; 
+    font-size: 60px; 
+}
+
+.grid-container{
+    display:grid; 
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 900px;
+    margin: 50px auto;  
+    height: 600px; 
+    grid-gap: 3px; 
+}
+
+.grid-item{
+    display: flex; 
+    height: 150px;
+    width: 250px;  
+    justify-content: center; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 70px;
+    align-items: center; 
+}
+
+.grid-item:hover{
+    background-color:yellow; 
+}
+
+h2 {
+    text-align: center; 
+    font-size: 60px; 
+}
