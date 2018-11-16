@@ -77,9 +77,6 @@ const displayController = (() => {
         gameStateController.setPlayer(); 
         updateTurnHeader(gameStateController.getCurrentPlayer());
     })
-
-
-    return {updateTurnHeader}
 })(); 
 
 
@@ -93,7 +90,6 @@ const player = (name,symbol) =>{
     let player1 = player("Player 1","X");
     let player2 = player("Player 2","O");
     let currentPlayer = player1; 
-    displayController.updateTurnHeader(currentPlayer); 
     const switchTurns = () => {
         (currentPlayer == player1) ? currentPlayer = player2 : currentPlayer = player1; 
     };
